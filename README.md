@@ -25,7 +25,8 @@ Try to build a model for predicting a video will become popular or not.
 
 ## Result
 The result is quite weird since linear, poly and SVR are having a negative score.\
-According to my observation, the possible reason is there are too many irrelevant X variables in the models. Therefore, when I use ridge and lasso to penalize the regression, I can get a reasonable result.\
+According to my observation, the possible reason is there are too many irrelevant X variables in the models.\
+Therefore, when I use ridge and lasso to penalize the regression, I can get a reasonable result.\
 Based on the model performance metrics above, the best model is Ridge regression.
 * The score is 0.3779.
 * The best parameters is alpha = 1000
