@@ -15,7 +15,7 @@ Try to build a model for predicting a video will become popular or not.
      
 3. Modeling - Regression\
       In this project, I will run following models and find out which model is the best fit for this dataset. (criteria: processing time and accuracy)
-      1. KNN Repressor
+      1. KNN Regressor
       2. Linear Regression
       3. Ridge
       4. Lasso
